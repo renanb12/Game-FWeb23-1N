@@ -9,7 +9,7 @@ a:hover {
 nav {
     cursor:default;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 400px;
     font-size: 30px;
@@ -23,8 +23,8 @@ nav a {
 
 nav li {
     list-style: none;
-    display: inline;
     margin-right: 20px;
+    justify-content: space-between;
 }
 
 nav h1 {
